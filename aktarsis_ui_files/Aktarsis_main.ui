@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AktarsisMainWindow</class>
+ <widget class="QMainWindow" name="AktarsisMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AKTARSİS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="aktarsis_icons.qrc">
+    <normaloff>:/icons/aktarsis_ikonlar/aktarsis_logo.png</normaloff>:/icons/aktarsis_ikonlar/aktarsis_logo.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>35</width>
+    <height>35</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget_dch">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame_dch">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_dch">
+         <item row="0" column="1">
+          <widget class="QGroupBox" name="groupBox_dch_2">
+           <property name="title">
+            <string>Cihaz Bilgisi</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QTableWidget" name="tableWidget_dch">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>40</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="textElideMode">
+               <enum>Qt::ElideLeft</enum>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>false</bool>
+              </property>
+              <attribute name="horizontalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>180</number>
+              </attribute>
+              <attribute name="horizontalHeaderMinimumSectionSize">
+               <number>40</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderDefaultSectionSize">
+               <number>50</number>
+              </attribute>
+              <attribute name="verticalHeaderMinimumSectionSize">
+               <number>50</number>
+              </attribute>
+              <row>
+               <property name="text">
+                <string>bitki</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>toprak</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>konum</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>ikon</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>istenen_bilgi</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>gelen_bilgi</string>
+               </property>
+              </column>
+              <item row="0" column="0">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="icon">
+                <iconset resource="aktarsis_icons.qrc">
+                 <normaloff>:/icons/aktarsis_ikonlar/plant.png</normaloff>:/icons/aktarsis_ikonlar/plant.png</iconset>
+               </property>
+              </item>
+              <item row="0" column="1">
+               <property name="text">
+                <string>Ekilen Bitki:</string>
+               </property>
+              </item>
+              <item row="0" column="2">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="textAlignment">
+                <set>AlignLeading|AlignVCenter</set>
+               </property>
+              </item>
+              <item row="1" column="0">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="icon">
+                <iconset resource="aktarsis_icons.qrc">
+                 <normaloff>:/icons/aktarsis_ikonlar/soil.png</normaloff>:/icons/aktarsis_ikonlar/soil.png</iconset>
+               </property>
+              </item>
+              <item row="1" column="1">
+               <property name="text">
+                <string>Kullanılan Toprak:</string>
+               </property>
+              </item>
+              <item row="2" column="0">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="icon">
+                <iconset resource="aktarsis_icons.qrc">
+                 <normaloff>:/icons/aktarsis_ikonlar/map.png</normaloff>:/icons/aktarsis_ikonlar/map.png</iconset>
+               </property>
+              </item>
+              <item row="2" column="1">
+               <property name="text">
+                <string>Cihazın Konumu:</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QGroupBox" name="groupBox_dch">
+           <property name="title">
+            <string>Cihazlarım</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QListWidget" name="listWidget_dch"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QCommandLinkButton" name="commandLinkButton_dch">
+           <property name="text">
+            <string>Anasayfaya Git</string>
+           </property>
+           <property name="icon">
+            <iconset resource="aktarsis_icons.qrc">
+             <normaloff>:/icons/aktarsis_ikonlar/homepage.png</normaloff>:/icons/aktarsis_ikonlar/homepage.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <spacer name="verticalSpacer_dch">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_dch_2">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_dch">
+           <property name="text">
+            <string>Lütfen İşlem Yapmak istediğiniz Cihazınızı Seçin!</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionDevice"/>
+   <addaction name="separator"/>
+   <addaction name="actionHomePage"/>
+   <addaction name="separator"/>
+   <addaction name="actionPlant"/>
+   <addaction name="separator"/>
+   <addaction name="actionSetPlant"/>
+   <addaction name="separator"/>
+   <addaction name="actionSolarPanel"/>
+   <addaction name="separator"/>
+   <addaction name="actionSetDevice"/>
+   <addaction name="separator"/>
+   <addaction name="actionEditUser"/>
+   <addaction name="separator"/>
+   <addaction name="actionLogout"/>
+  </widget>
+  <action name="actionDevice">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/device.png</normaloff>:/icons/aktarsis_ikonlar/device.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cihaz Seçim</string>
+   </property>
+  </action>
+  <action name="actionHomePage">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/homepage.png</normaloff>:/icons/aktarsis_ikonlar/homepage.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ana Sayfa</string>
+   </property>
+  </action>
+  <action name="actionSetDevice">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/sprout.png</normaloff>:/icons/aktarsis_ikonlar/sprout.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cihaz Ayarları</string>
+   </property>
+  </action>
+  <action name="actionPlant">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/computer.png</normaloff>:/icons/aktarsis_ikonlar/computer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ekin Durum</string>
+   </property>
+  </action>
+  <action name="actionLogout">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/logout-256.png</normaloff>:/icons/aktarsis_ikonlar/logout-256.png</iconset>
+   </property>
+   <property name="text">
+    <string>Çıkış</string>
+   </property>
+  </action>
+  <action name="actionSolarPanel">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/solar-energy.png</normaloff>:/icons/aktarsis_ikonlar/solar-energy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Panel Durum</string>
+   </property>
+  </action>
+  <action name="actionSetPlant">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/smart-farm-info.png</normaloff>:/icons/aktarsis_ikonlar/smart-farm-info.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ekin Ayarları</string>
+   </property>
+  </action>
+  <action name="actionEditUser">
+   <property name="icon">
+    <iconset resource="aktarsis_icons.qrc">
+     <normaloff>:/icons/aktarsis_ikonlar/edit-user-256.png</normaloff>:/icons/aktarsis_ikonlar/edit-user-256.png</iconset>
+   </property>
+   <property name="text">
+    <string>Profili Düzenle</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>listWidget_dch</tabstop>
+  <tabstop>tableWidget_dch</tabstop>
+  <tabstop>commandLinkButton_dch</tabstop>
+ </tabstops>
+ <resources>
+  <include location="aktarsis_icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

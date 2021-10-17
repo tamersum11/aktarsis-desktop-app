@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="plants">
+    <file>aktarsis_fotolar/bean.png</file>
+    <file>aktarsis_fotolar/cucumber.png</file>
+    <file>aktarsis_fotolar/eggplant.png</file>
+    <file>aktarsis_fotolar/green-chili-pepper.png</file>
+    <file>aktarsis_fotolar/tomato.png</file>
+    <file>aktarsis_fotolar/tomato-plant.png</file>
+    <file>aktarsis_fotolar/vegetable.png</file>
+  </qresource>
+</RCC>

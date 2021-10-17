@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>aktarsis_ikonlar/information.png</file>
+    <file>aktarsis_ikonlar/plant.png</file>
+    <file>aktarsis_ikonlar/map.png</file>
+    <file>aktarsis_ikonlar/bitki-durum.png</file>
+    <file>aktarsis_ikonlar/add-user-2-256.png</file>
+    <file>aktarsis_ikonlar/contacts-256.png</file>
+    <file>aktarsis_ikonlar/error-6-256.png</file>
+    <file>aktarsis_ikonlar/logout-256.png</file>
+    <file>aktarsis_ikonlar/aktarsis_logo.png</file>
+    <file>aktarsis_ikonlar/aktarsis_logo_yazili.png</file>
+    <file>aktarsis_ikonlar/assistant-256.png</file>
+    <file>aktarsis_ikonlar/change-user-256.png</file>
+    <file>aktarsis_ikonlar/computer.png</file>
+    <file>aktarsis_ikonlar/device.png</file>
+    <file>aktarsis_ikonlar/edit-user-256.png</file>
+    <file>aktarsis_ikonlar/homepage.png</file>
+    <file>aktarsis_ikonlar/login-256.png</file>
+    <file>aktarsis_ikonlar/ph-meter.png</file>
+    <file>aktarsis_ikonlar/smart-farm.png</file>
+    <file>aktarsis_ikonlar/smart-farm-feeding.png</file>
+    <file>aktarsis_ikonlar/smart-farm-info.png</file>
+    <file>aktarsis_ikonlar/soil.png</file>
+    <file>aktarsis_ikonlar/solar-energy.png</file>
+    <file>aktarsis_ikonlar/sprout.png</file>
+  </qresource>
+</RCC>
