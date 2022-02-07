@@ -13,4 +13,4 @@
 You can see AKTARSIS Device in [here](https://github.com/tamersum11/esp32-smart-agriculture).
 
 ## Graduation Project
-[Istanbul Medeniyet University](https://www.medeniyet.edu.tr/tr) Electrical - Electronics Engineering Program Graduation Project.
+[Istanbul Medeniyet University](https://www.medeniyet.edu.tr/tr), Faculty Of Engineering And Natural Sciences, Electrical And Electronics Engineering Program Graduation Project.
