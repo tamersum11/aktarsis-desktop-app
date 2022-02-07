@@ -41,18 +41,3 @@ def updateOperation(table, update_coloumn, id_coloumn, update_item, id_item):
     value = (str(update_item), str(id_item))
     aktarsis_cursor.execute(sql, value)
     aktarsis_db.commit()
-
-'''
-sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
-val = ("John", "Highway 21")
-mycursor.execute(sql, val)
-
-mydb.commit()
-
-name = "tamer"
-surname = "yaz"
-email = "tameryaz98@hotmail.com"
-password_1 = "1356"
-add_user = (name, surname, email, password_1)
-insertOperation("kullanicilar", "(ad, soyad, mail, sifre)", add_user)
-'''
